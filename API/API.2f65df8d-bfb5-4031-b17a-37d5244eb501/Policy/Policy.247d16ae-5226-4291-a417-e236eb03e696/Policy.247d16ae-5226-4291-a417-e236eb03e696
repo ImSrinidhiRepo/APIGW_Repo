@@ -1,0 +1,19 @@
+{
+  "id" : "247d16ae-5226-4291-a417-e236eb03e696",
+  "names" : [ {
+    "value" : "OrdersAPI_scopePolicy",
+    "locale" : "English"
+  } ],
+  "descriptions" : [ {
+    "value" : "",
+    "locale" : "English"
+  } ],
+  "scope" : {
+    "scopeConditions" : [ ]
+  },
+  "policyEnforcements" : [ ],
+  "policyScope" : "SCOPE",
+  "active" : false,
+  "global" : false,
+  "systemPolicy" : false
+}

@@ -1,0 +1,9 @@
+{
+  "applicationId" : "dcda7be2-f976-4618-ab7f-0deea620a7a4",
+  "apiIds" : [ "e85dd53e-a681-4a54-ad23-b998f580693a" ],
+  "lastUpdated" : 1708323177229,
+  "primaryNode" : {
+    "hostId" : "7b62a49a-1af0-4c73-93af-2c3a9014bb79",
+    "replica" : 0
+  }
+}

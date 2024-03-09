@@ -1,0 +1,38 @@
+{
+  "applicationID" : "6a3b8114-40d5-4aaa-af48-b7281470864e",
+  "name" : "OrdersApp",
+  "owner" : "Administrator",
+  "ownerType" : "user",
+  "identifiers" : [ {
+    "id" : "6a6bf64d-e5e8-464c-a611-1bcfa06f9fdf",
+    "key" : "jwtClaims",
+    "swaggerName" : "",
+    "swaggerValue" : [ ],
+    "namedValues" : [ {
+      "name" : "Claims",
+      "values" : [ "{\"azp\":\"e102a1e0-76ce-4fb0-bd9d-b6c625d92ce3\"}" ]
+    } ]
+  } ],
+  "contactEmails" : [ ],
+  "accessTokens" : {
+    "apiAccessKey" : {
+      "apiAccessKey" : "********************************"
+    }
+  },
+  "creationDate" : "2024-02-16 10:29:22 GMT",
+  "lastModified" : "2024-02-26 10:57:09 GMT",
+  "lastUpdated" : 1709917329200,
+  "siteURLs" : [ ],
+  "jsOrigins" : [ ],
+  "version" : "1.0",
+  "properties" : { },
+  "isSuspended" : false,
+  "customFields" : { },
+  "authStrategyIds" : [ "c154b1d9-bcf8-4a05-b1fa-8e1e840a234a" ],
+  "primaryNode" : {
+    "hostId" : "7b62a49a-1af0-4c73-93af-2c3a9014bb79",
+    "replica" : 0
+  },
+  "shell" : false,
+  "subscription" : false
+}

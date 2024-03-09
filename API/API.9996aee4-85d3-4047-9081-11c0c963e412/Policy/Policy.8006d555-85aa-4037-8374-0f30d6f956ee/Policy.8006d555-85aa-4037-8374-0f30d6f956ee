@@ -1,0 +1,19 @@
+{
+  "id" : "8006d555-85aa-4037-8374-0f30d6f956ee",
+  "names" : [ {
+    "value" : "newPetStore_scopePolicy",
+    "locale" : "English"
+  } ],
+  "descriptions" : [ {
+    "value" : "",
+    "locale" : "English"
+  } ],
+  "scope" : {
+    "scopeConditions" : [ ]
+  },
+  "policyEnforcements" : [ ],
+  "policyScope" : "SCOPE",
+  "active" : false,
+  "global" : false,
+  "systemPolicy" : false
+}

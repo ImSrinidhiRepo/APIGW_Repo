@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="APIGatewayAssets" displayName="Assets for API Gateway" runtimeVersion="10.15" targetNamespace="http://namespaces.softwareag.com/webMethods/APIGateway" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <buildInfo name="BuildTimestamp" value="2024-03-09T16:49:17"/>
+    <asset name="API.2f65df8d-bfb5-4031-b17a-37d5244eb501" displayName="OrdersAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="API"/>
+        <dependsOn>APIGateway:Policy.247d16ae-5226-4291-a417-e236eb03e696</dependsOn>
+        <dependsOn>APIGateway:Policy.49271ccc-37bb-4a13-941b-f9eae2b871cd</dependsOn>
+        <dependsOn>APIGateway:Policy.bd85baea-dc90-4fd2-8013-60437b35d7f3</dependsOn>
+        <dependsOn>APIGateway:Policy.e3445e6d-ca82-4104-94ef-01680e6c3065</dependsOn>
+        <dependsOn>APIGateway:RegisteredApplication.EmptyRegisteredApplication</dependsOn>
+    </asset>
+    <asset name="Policy.bd85baea-dc90-4fd2-8013-60437b35d7f3" displayName="Policy For API OrdersAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="Policy"/>
+        <dependsOn>APIGateway:PolicyAction.302ac868-29b4-42af-b133-7d6065363023</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.35cbb42c-3269-4e27-b2e7-f1c4403f2f4c</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.9c820934-73d2-46ca-83f3-b9e0452126e5</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.a971a2f3-51c0-4abb-9e60-0a5a653f5d06</dependsOn>
+    </asset>
+    <asset name="PolicyAction.9c820934-73d2-46ca-83f3-b9e0452126e5" displayName="Policy Action [Straight Through Routing] -&gt; Policy For API OrdersAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.35cbb42c-3269-4e27-b2e7-f1c4403f2f4c" displayName="Policy Action [Log Invocation] -&gt; Policy For API OrdersAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.302ac868-29b4-42af-b133-7d6065363023" displayName="Policy Action [Identify &amp; Authorize] -&gt; Policy For API OrdersAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.a971a2f3-51c0-4abb-9e60-0a5a653f5d06" displayName="Policy Action [Enable HTTP / HTTPS] -&gt; Policy For API OrdersAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="Policy.e3445e6d-ca82-4104-94ef-01680e6c3065" displayName="Policy For API OrdersAPI[1.0.6] Scope [accessGet]" isDeployable="true">
+        <implementation.generic type="Policy"/>
+    </asset>
+    <asset name="Policy.247d16ae-5226-4291-a417-e236eb03e696" displayName="Policy For API OrdersAPI[1.0.6] Scope [accessPostPutPatch]" isDeployable="true">
+        <implementation.generic type="Policy"/>
+    </asset>
+    <asset name="Policy.49271ccc-37bb-4a13-941b-f9eae2b871cd" displayName="Policy For API OrdersAPI[1.0.6] Scope [accessDelete]" isDeployable="true">
+        <implementation.generic type="Policy"/>
+    </asset>
+    <asset name="RegisteredApplication.EmptyRegisteredApplication" displayName="RegisteredApplication [ EmptyRegisteredApplication ]" isDeployable="true">
+        <implementation.generic type="RegisteredApplication"/>
+    </asset>
+    <asset name="API.e85dd53e-a681-4a54-ad23-b998f580693a" displayName="InvoiceAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="API"/>
+        <dependsOn>APIGateway:Application.dcda7be2-f976-4618-ab7f-0deea620a7a4</dependsOn>
+        <dependsOn>APIGateway:Policy.8a64b7c1-0409-425f-9346-64b7887c8c1f</dependsOn>
+        <dependsOn>APIGateway:RegisteredApplication.dcda7be2-f976-4618-ab7f-0deea620a7a4</dependsOn>
+    </asset>
+    <asset name="Policy.8a64b7c1-0409-425f-9346-64b7887c8c1f" displayName="Policy For API InvoiceAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="Policy"/>
+        <dependsOn>APIGateway:PolicyAction.0a926d70-3756-41ae-b213-fa380916e716</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.a074e34b-12aa-4c39-9103-7f493e8048bc</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.df3aaa0e-d167-45fb-8524-24bdfa75c4f2</dependsOn>
+    </asset>
+    <asset name="PolicyAction.df3aaa0e-d167-45fb-8524-24bdfa75c4f2" displayName="Policy Action [Straight Through Routing] -&gt; Policy For API InvoiceAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.a074e34b-12aa-4c39-9103-7f493e8048bc" displayName="Policy Action [Identify &amp; Authorize] -&gt; Policy For API InvoiceAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.0a926d70-3756-41ae-b213-fa380916e716" displayName="Policy Action [Enable HTTP / HTTPS] -&gt; Policy For API InvoiceAPI[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="Application.dcda7be2-f976-4618-ab7f-0deea620a7a4" displayName="InvoiceApp" isDeployable="true">
+        <implementation.generic type="Application"/>
+        <dependsOn>APIGateway:PassmanData.API_ACCESS_KEYdcda7be2-f976-4618-ab7f-0deea620a7a4</dependsOn>
+        <dependsOn>APIGateway:RegisteredApplication.dcda7be2-f976-4618-ab7f-0deea620a7a4</dependsOn>
+        <dependsOn>APIGateway:Strategy.fc0a840e-10a7-4fec-8541-3487a7007cd3</dependsOn>
+    </asset>
+    <asset name="PassmanData.API_ACCESS_KEYdcda7be2-f976-4618-ab7f-0deea620a7a4" displayName="API_ACCESS_KEYdcda7be2-f976-4618-ab7f-0deea620a7a4" isDeployable="true">
+        <implementation.generic type="PassmanData"/>
+    </asset>
+    <asset name="Strategy.fc0a840e-10a7-4fec-8541-3487a7007cd3" displayName="InvoiceStrategy" isDeployable="true">
+        <implementation.generic type="Strategy"/>
+    </asset>
+    <asset name="RegisteredApplication.dcda7be2-f976-4618-ab7f-0deea620a7a4" displayName="RegisteredApplication [ InvoiceApp ]" isDeployable="true">
+        <implementation.generic type="RegisteredApplication"/>
+    </asset>
+    <asset name="API.148671f2-990c-4822-8ba9-72cce0ce9882" displayName="petstore[1.0.6]" isDeployable="true">
+        <implementation.generic type="API"/>
+        <dependsOn>APIGateway:Policy.0e45d116-cc01-426f-8f93-4650a09ef6a2</dependsOn>
+        <dependsOn>APIGateway:Policy.582f4e6a-7719-4a64-966c-e1bdf6ef92b7</dependsOn>
+        <dependsOn>APIGateway:RegisteredApplication.EmptyRegisteredApplication</dependsOn>
+    </asset>
+    <asset name="Policy.0e45d116-cc01-426f-8f93-4650a09ef6a2" displayName="Policy For API petstore[1.0.6]" isDeployable="true">
+        <implementation.generic type="Policy"/>
+        <dependsOn>APIGateway:PolicyAction.160c689c-486b-4a1e-842e-0498ca509a9c</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.18770f36-ab54-46ac-a8c3-b80dd44f7023</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.2d908ea6-0c14-406d-af5d-e4c9dc5d385c</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.5f409898-8cef-4448-875e-3f538f67865a</dependsOn>
+    </asset>
+    <asset name="PolicyAction.5f409898-8cef-4448-875e-3f538f67865a" displayName="Policy Action [Straight Through Routing] -&gt; Policy For API petstore[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.160c689c-486b-4a1e-842e-0498ca509a9c" displayName="Policy Action [Log Invocation] -&gt; Policy For API petstore[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.2d908ea6-0c14-406d-af5d-e4c9dc5d385c" displayName="Policy Action [Identify &amp; Authorize] -&gt; Policy For API petstore[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.18770f36-ab54-46ac-a8c3-b80dd44f7023" displayName="Policy Action [Enable HTTP / HTTPS] -&gt; Policy For API petstore[1.0.6]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="Policy.582f4e6a-7719-4a64-966c-e1bdf6ef92b7" displayName="Policy For API petstore[1.0.6] Scope [getScope]" isDeployable="true">
+        <implementation.generic type="Policy"/>
+    </asset>
+    <asset name="API.9996aee4-85d3-4047-9081-11c0c963e412" displayName="newPetStore[1]" isDeployable="true">
+        <implementation.generic type="API"/>
+        <dependsOn>APIGateway:Application.6a3b8114-40d5-4aaa-af48-b7281470864e</dependsOn>
+        <dependsOn>APIGateway:Policy.8006d555-85aa-4037-8374-0f30d6f956ee</dependsOn>
+        <dependsOn>APIGateway:Policy.f846ae3d-13b1-401e-bcf5-d3dfd37d7b67</dependsOn>
+        <dependsOn>APIGateway:RegisteredApplication.6a3b8114-40d5-4aaa-af48-b7281470864e</dependsOn>
+    </asset>
+    <asset name="Policy.f846ae3d-13b1-401e-bcf5-d3dfd37d7b67" displayName="Policy For API newPetStore[1]" isDeployable="true">
+        <implementation.generic type="Policy"/>
+        <dependsOn>APIGateway:PolicyAction.59b6be34-e406-4ef5-ab5c-390c02c65404</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.906cc2d5-29d9-4814-80c1-14eb8b887e8c</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.a4473cc6-75b5-486f-a5d9-02100abace3a</dependsOn>
+        <dependsOn>APIGateway:PolicyAction.eedfc015-5478-40ea-944e-6adf6c8313d3</dependsOn>
+    </asset>
+    <asset name="PolicyAction.59b6be34-e406-4ef5-ab5c-390c02c65404" displayName="Policy Action [Straight Through Routing] -&gt; Policy For API newPetStore[1]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.eedfc015-5478-40ea-944e-6adf6c8313d3" displayName="Policy Action [Log Invocation] -&gt; Policy For API newPetStore[1]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.a4473cc6-75b5-486f-a5d9-02100abace3a" displayName="Policy Action [Identify &amp; Authorize] -&gt; Policy For API newPetStore[1]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="PolicyAction.906cc2d5-29d9-4814-80c1-14eb8b887e8c" displayName="Policy Action [Enable HTTP / HTTPS] -&gt; Policy For API newPetStore[1]" isDeployable="true">
+        <implementation.generic type="PolicyAction"/>
+    </asset>
+    <asset name="Policy.8006d555-85aa-4037-8374-0f30d6f956ee" displayName="Policy For API newPetStore[1] Scope [access-get]" isDeployable="true">
+        <implementation.generic type="Policy"/>
+    </asset>
+    <asset name="Application.6a3b8114-40d5-4aaa-af48-b7281470864e" displayName="OrdersApp" isDeployable="true">
+        <implementation.generic type="Application"/>
+        <dependsOn>APIGateway:PassmanData.API_ACCESS_KEY6a3b8114-40d5-4aaa-af48-b7281470864e</dependsOn>
+        <dependsOn>APIGateway:RegisteredApplication.6a3b8114-40d5-4aaa-af48-b7281470864e</dependsOn>
+        <dependsOn>APIGateway:Strategy.c154b1d9-bcf8-4a05-b1fa-8e1e840a234a</dependsOn>
+    </asset>
+    <asset name="PassmanData.API_ACCESS_KEY6a3b8114-40d5-4aaa-af48-b7281470864e" displayName="API_ACCESS_KEY6a3b8114-40d5-4aaa-af48-b7281470864e" isDeployable="true">
+        <implementation.generic type="PassmanData"/>
+    </asset>
+    <asset name="Strategy.c154b1d9-bcf8-4a05-b1fa-8e1e840a234a" displayName="EntraStrategyTest" isDeployable="true">
+        <implementation.generic type="Strategy"/>
+    </asset>
+    <asset name="RegisteredApplication.6a3b8114-40d5-4aaa-af48-b7281470864e" displayName="RegisteredApplication [ OrdersApp ]" isDeployable="true">
+        <implementation.generic type="RegisteredApplication"/>
+    </asset>
+</asset_composite>

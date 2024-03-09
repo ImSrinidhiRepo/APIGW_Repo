@@ -1,0 +1,17 @@
+{
+  "id" : "c154b1d9-bcf8-4a05-b1fa-8e1e840a234a",
+  "type" : "OAUTH2_LOCAL_RSA",
+  "authServerAlias" : "EntraID",
+  "name" : "EntraStrategyTest",
+  "description" : "",
+  "clientId" : "e102a1e0-76ce-4fb0-bd9d-b6c625d92ce3",
+  "jwtAuthStrategy" : {
+    "id" : "c154b1d9-bcf8-4a05-b1fa-8e1e840a234a_embed",
+    "type" : "JWT_RSA",
+    "authServerAlias" : "EntraID",
+    "name" : "EntraStrategyTest_embed",
+    "description" : " Embedded",
+    "audience" : "7e7894c1-ca3f-4092-8a88-8dc30f0e224c"
+  },
+  "audience" : "7e7894c1-ca3f-4092-8a88-8dc30f0e224c"
+}

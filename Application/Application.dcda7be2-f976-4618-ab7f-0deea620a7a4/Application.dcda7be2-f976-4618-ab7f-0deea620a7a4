@@ -1,0 +1,38 @@
+{
+  "applicationID" : "dcda7be2-f976-4618-ab7f-0deea620a7a4",
+  "name" : "InvoiceApp",
+  "owner" : "Administrator",
+  "ownerType" : "user",
+  "identifiers" : [ {
+    "id" : "32cb86e6-35eb-42b6-878a-b248298484e7",
+    "key" : "jwtClaims",
+    "swaggerName" : "",
+    "swaggerValue" : [ ],
+    "namedValues" : [ {
+      "name" : "Claims",
+      "values" : [ "{\"azp\":\"d4159b8c-e282-4ff2-a0f2-2cec7c2e5a41\"}" ]
+    } ]
+  } ],
+  "contactEmails" : [ ],
+  "accessTokens" : {
+    "apiAccessKey" : {
+      "apiAccessKey" : "********************************"
+    }
+  },
+  "creationDate" : "2024-02-16 13:38:18 GMT",
+  "lastModified" : "2024-02-26 10:27:50 GMT",
+  "lastUpdated" : 1708943270849,
+  "siteURLs" : [ ],
+  "jsOrigins" : [ ],
+  "version" : "1.0",
+  "properties" : { },
+  "isSuspended" : true,
+  "customFields" : { },
+  "authStrategyIds" : [ "fc0a840e-10a7-4fec-8541-3487a7007cd3" ],
+  "primaryNode" : {
+    "hostId" : "7b62a49a-1af0-4c73-93af-2c3a9014bb79",
+    "replica" : 0
+  },
+  "shell" : false,
+  "subscription" : false
+}

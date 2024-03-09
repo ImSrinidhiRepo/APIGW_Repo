@@ -1,0 +1,8 @@
+{
+  "id" : "fc0a840e-10a7-4fec-8541-3487a7007cd3",
+  "type" : "JWT_RSA",
+  "authServerAlias" : "EntreID",
+  "name" : "InvoiceStrategy",
+  "description" : "InvoiceStrategy",
+  "audience" : "8d0a84cc-47f6-4453-a575-5ed337075539"
+}

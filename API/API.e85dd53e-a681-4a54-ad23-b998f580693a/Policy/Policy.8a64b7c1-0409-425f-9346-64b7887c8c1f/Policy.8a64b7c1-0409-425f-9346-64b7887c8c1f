@@ -1,0 +1,37 @@
+{
+  "id" : "8a64b7c1-0409-425f-9346-64b7887c8c1f",
+  "names" : [ {
+    "value" : "Default Policy for API InvoiceAPI",
+    "locale" : "English"
+  } ],
+  "descriptions" : [ {
+    "value" : "",
+    "locale" : "English"
+  } ],
+  "scope" : {
+    "scopeConditions" : [ ]
+  },
+  "policyEnforcements" : [ {
+    "enforcements" : [ {
+      "enforcementObjectId" : "df3aaa0e-d167-45fb-8524-24bdfa75c4f2",
+      "order" : "0"
+    } ],
+    "stageKey" : "routing"
+  }, {
+    "enforcements" : [ {
+      "enforcementObjectId" : "a074e34b-12aa-4c39-9103-7f493e8048bc",
+      "order" : "0"
+    } ],
+    "stageKey" : "IAM"
+  }, {
+    "enforcements" : [ {
+      "enforcementObjectId" : "0a926d70-3756-41ae-b213-fa380916e716",
+      "order" : "0"
+    } ],
+    "stageKey" : "transport"
+  } ],
+  "policyScope" : "SERVICE",
+  "active" : false,
+  "global" : false,
+  "systemPolicy" : false
+}
